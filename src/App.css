@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap');
+
+.App {
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main-info {
+  width: 100%;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+}
+
+#logo {
+  height: 56px;
+  width: 110px;
+  margin-left: 30px;
+}
+
+#logo-black {
+  height: 26px;
+  margin-top: 3px;
+}
+
+#logo-name {
+  font-size: 1.7em;
+  font-weight: 500;
+  margin: 0;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+#menu {
+  font-size: 0.9em;
+  height: 70px;
+  width: 300px;
+  margin-right: 20px;
+  font-family: 'Segoe UI';
+}
+
+#menu p {
+  margin-top: 18px;
+}
+
+#menu-icon img {
+  height: 16px;
+  width: 20px;
+  margin-right: 32px;
+}
+
+#asterisks-black {
+  height: 14px;
+  width: 54px;
+  margin-left: 34px;
+  margin-top: 16px;
+}
+
+#tagline {
+  font-size: 3em;
+  font-family: 'Cormorant Garamond';
+  font-weight: 500;
+  margin-left: 34px;
+  margin-top: 35px;
+  line-height: 70px;
+  margin-bottom: 40px;
+  max-width: 328px;
+}
+
+.arrow-black {
+  height: 24px;
+  width: 90px;
+  margin-left: 34px;
+  margin-top: 0;
+}
+
+#information {
+  font-family: 'Plus Jakarta Sans';
+  margin-left: 34px;
+  margin-top: 40px;
+  line-height: 120%;
+  font-size: 1.1em;
+  width: 80%;
+}
+
+#order {
+  margin-top: 30px;
+}
+
+#order-button {
+  font-family: 'Helvetica Neue';
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  width: 90px;
+  height: 32px;
+  margin-left: 34px;
+}
+
+#order p {
+  margin-left: 14px;
+  font-size: 0.9em;
+}
+
+#stats {
+  margin-top: 30px;
+  margin-left: 6px;
+}
+
+#stats p {
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+#stats h1 {
+  margin-top: 5px;
+  font-size: 1.3em;
+}
+
+#active-users {
+  font-size: 0.9em;
+  margin-left: 34px;
+  border-right: 2px solid rgb(200, 200, 200);
+  height: 55px;
+}
+
+#downloads {
+  font-size: 0.9em;
+  margin-left: -5px;
+  border-right: 2px solid rgb(200, 200, 200);
+  height: 55px;
+}
+
+#reviews {
+  font-size: 0.9em;
+  margin-left: -5px;
+  height: 55px;
+}
+
+.ellipse-red {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  left: -50px;
+  top: 70px;
+  background: radial-gradient(50% 50% at 50% 50%, #F8EAE8 0%, rgba(248, 234, 232, 0) 100%);
+  z-index: -1;
+}
+
+.ellipse-blue {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  left: 160px;
+  top: 360px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(229, 233, 244, 0.9) 0%, rgba(229, 233, 244, 0) 100%);
+  z-index: -1;
+}
+
+#star-small {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 156px;
+  right: 70px;
+  background-image: url('./images/star-black.png');
+  background-size: cover;
+  z-index: 2;
+}
+
+#star-large {
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 100px;
+  right: 20px;
+  background-image: url('./images/star-black.png');
+  background-size: cover;
+  z-index: 2;
+}
+
+.hand-image {
+  position: relative;
+  background-image: url('./images/hand-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 610px;
+  width: 100%;
+}
+
+#hand-picture {
+  position: absolute;
+  top: 100px;
+  right: 40px;
+  height: 600px;
+}
+
+#cards-image {
+  width: 90%
+}
+
+#feature-container {
+  width: 100%;
+  background: #1D1D1C;
+  padding-bottom: 30px;
+}
+
+#features {
+  background: #1D1D1C;
+  width: 90%;
+  margin: auto;
+}
+
+.feature {
+  background: black;
+  color: white;
+  height: 247px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#feature-header {
+  font-size: 2.8em;
+  font-family: 'Cormorant Garamond';
+  text-align: left;
+  align-self: left;
+  color: white;
+  width: 80%;
+  margin-left: -30px;
+}
+
+.feature-number {
+  font-family: 'Cormorant Garamond';
+  font-weight: 100;
+  font-size: 2.2em;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.feature-description {
+  font-family: 'Open Sans';
+  width: 262px;
+  opacity: 0.6;
+  margin: 0;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.feature-button {
+  font-family: 'Helvetica Neue';
+  background: #A5AFD4;
+  color: white;
+  height: 32px;
+  width: 120px;
+  border: none;
+  border-radius: 30px;
+  margin: 0;
+}
+
+@media (min-width: 278px) {
+  #tagline {
+    font-size: 3.4em;
+  }
+}
+
+@media (min-width: 314px) {
+  #tagline {
+    font-size: 3.6em;
+  }
+}
+
+@media (min-width: 330px) {
+  #tagline {
+    font-size: 3.8em;
+  }
+}
+
+@media (min-width: 347px) {
+  #tagline {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 600px) {
+  #logo {
+    height: 70px;
+    width: 140px;
+    margin-left: 40px;
+  }
+
+  #menu {
+    font-size: 1em;
+    width: 60%;
+    margin-right: 40px;
+  }
+
+  #logo-black {
+    height: 30px;
+    margin-top: 5px;
+  }
+
+  #logo-name {
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+  #star-small {
+    right: 100px;
+  }
+  #star-large {
+    right: 50px;
+  }
+  #asterisks-black {
+    margin-left: 40px;
+  }
+  #tagline {
+    margin-left: 40px;
+  }
+  .arrow-black {
+    margin-left: 40px;
+  }
+  #information {
+    margin-left: 40px;
+  }
+  #order {
+    margin-left: 6px;
+  }
+  #order-button {
+    width: 120px;
+  }
+  #order p {
+    font-size: 1em;
+    margin-left: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  #logo {
+    height: 40px;
+    margin-top: -10px;
+  }
+  #menu-icon {
+    margin-top: -4px;
+  }
+  #tagline {
+    font-size: 2.4em;
+    line-height: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #star-small {
+    display: none;
+  }
+  #star-large {
+    display: none;
+  }
+  #arrow-black {
+    margin-top: 0;
+  }
+  #information {
+    margin-top: 20px;
+  }
+  #stats {
+    margin-top: 50px;
+  }
+  #feature-container {
+    padding-bottom: 50px;
+  }
+  #feature-header {
+    margin-left: 0;
+  }
+  .feature-description {
+    width: 90%;
+  }
+}
+
+@media (min-width: 816px) {
+  #stats {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 900px) {
+  #stats {
+    width: 518px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #menu {
+    margin-top: -6px;
+  }
+  #asterisks-black {
+    margin-top: 40px;
+  }
+  #tagline {
+    margin-top: 40px;
+  }
+  .hand-image {
+    height: 680px;
+  }
+
+  @media (min-width: 1280px) {
+    #main-content {
+      margin-left: 40px;
+    }
+    #asterisks-black {
+      margin-top: 50px;
+    }
+    #tagline {
+      margin-top: 40px;
+      font-size: 4em;
+      max-width: 600px;
+    }
+    .hand-image {
+      height: 750px;
+    }
+  }
+}
